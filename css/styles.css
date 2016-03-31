@@ -1,0 +1,13 @@
+header {
+    min-height: 800px;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    background-image: url(../img/portfolio/Face.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+}
