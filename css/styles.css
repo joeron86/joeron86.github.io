@@ -84,10 +84,6 @@
     font-size: 80px;
 }
 
-section {
-    padding: 150px 0;
-}
-
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -102,4 +98,13 @@ section {
 
 .facebook {
   margin: 0 auto;
+  font-size: 30px;
+}
+
+.linkedin {
+  font-size: 30px;
+}
+
+.twitter {
+  font-size: 30px;
 }
