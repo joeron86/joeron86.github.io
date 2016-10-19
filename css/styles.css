@@ -20,21 +20,28 @@
 
 .header {
   background-color: #000;
-  min-height: 700px;
+  max-height: 700px;
   background-size: cover;
   width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .header img {
   background-size: cover;
 }
 
-.btn {
+.header .btn {
+  padding-right: 14%;
   position: absolute;
-  bottom: 11px;
-  left: 525px;
+  z-index: 2;
+  align-self: center;
   font-size: 40px;
   color: #353535;
+}
+
+.header .btn-primary {
+  background-color: transparent;
 }
 
 .fade-in {
@@ -94,7 +101,7 @@
   background-color: #fff;
 }
 
-.section-heading {
+#about .section-heading {
   font-family: 'Archivo Black', sans-serif;
   color: #000;
 }
@@ -106,6 +113,10 @@
 
 #services {
   background-color: #f05f40;
+}
+
+#services .section-heading {
+  color: #fff;
 }
 
 .text-primary {
@@ -128,6 +139,48 @@
     background: rgba(0,0,0,.8);
 }
 
+#portfolio .modal-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+#portfolio .thumbnail {
+  max-height: 500px;
+  border: none;
+  margin: 0;
+}
+
+.featherlight .featherlight-content {
+  padding: 0;
+  border: none;
+}
+
+.featherlight-next,
+.featherlight-previous {
+  background-color: rgba(0, 0, 0, 0);
+  top: 0px;
+}
+
+.featherlight-next:hover,
+.featherlight-previous:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.featherlight-next span,
+.featherlight-previous span {
+  color: rgba(255, 255, 255, 0.3);
+  text-shadow: none;
+}
+
+.featherlight-previous {
+  left: 0;
+}
+
+.featherlight-next {
+  right: 0;
+}
+
 .facebook {
   margin: 0 auto;
   font-size: 30px;
@@ -142,9 +195,21 @@
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 801px) {
+/*@media screen and (max-width: 801px) {
   .fade-in img {
     top: 30.8vh;
     max-height: 7.8vh;
+  }
+}*/
+
+@media screen and (max-width: 810px) {
+  .header .btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    max-height: 600px;
   }
 }

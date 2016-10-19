@@ -18,6 +18,10 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
+    <!-- LIGHTBOX -->
+    <link href="css/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -95,8 +99,7 @@
                 <img src="img/eye_images/mountain_eye.png" alt="" id="f5">
                 <img src="img/eye_images/sunset_eye.png" alt="" id="f6">
               </div> -->
-
-             <a href="#about" class="btn page-scroll img-responsive center-block"><i class="fa fa-chevron-circle-down"></i></a>
+             <a href="#about" class="btn btn-primary page-scroll"><i class="fa fa-chevron-circle-down"></i></a>
         </div>
     </div>
 
@@ -122,8 +125,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <!-- <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary"> -->
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="primary">
                 </div>
             </div>
         </div>
@@ -132,43 +135,43 @@
                 <div class="col-sm-2 text-center">
                     <div class="service-box">
                         <img src="img/Illustrator.png" class="wow fadeIn text-primary" data-wow-delay=".2s" alt="" alt="">
-                        <!-- <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p> -->
+                        <h3>Sturdy Templates</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
                     <div class="service-box">
-                        <img src="img/Photoshop.png" class="wow fadeIn text-primary" data-wow-delay=".2s" alt="" alt="">
-                        <!-- <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p> -->
+                        <img src="img/Photoshop.png" class="wow fadeIn text-primary sr-icons" data-wow-delay=".4s" alt="" alt="">
+                        <h3>Ready to Ship</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
                     <div class="service-box">
-                        <img src="img/Indesign.png" class="wow fadeIn text-primary" data-wow-delay=".2s" alt="">
-                        <!-- <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p> -->
+                        <img src="img/Indesign.png" class="wow fadeIn text-primary sr-icons" data-wow-delay=".6s" alt="">
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
                     <div class="service-box">
-                        <i class="fa fa-code wow fadeIn text-primary" data-wow-delay=".3s"></i>
-                        <!-- <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        <i class="fa fa-code wow fadeIn text-primary sr-icons" data-wow-delay=".8s"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
                     <div class="service-box">
-                        <img src="img/git.png" class="wow fadeIn text-primary" data-wow-delay=".2s" alt="" alt="">
-                        <!-- <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        <img src="img/git.png" class="wow fadeIn text-primary sr-icons" data-wow-delay="1s">
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
                 <div class="col-sm-2 text-center">
                     <div class="service-box">
-                        <img src="img/bootstrap.png" class="wow fadeIn text-primary" data-wow-delay=".2s" alt="" alt="">
-                        <!-- <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        <img src="img/bootstrap.png" class="wow fadeIn text-primary sr-icons" data-wow-delay="1.2s">
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
             </div>
@@ -179,24 +182,32 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box" data-toggle="modal" data-target=".magazine-ad">
-                        <img src="img/portfolio/flipside_thumb.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Magazine Ad
-                                </div>
-                                <div class="project-name">
-                                    Flipside
-                                </div>
-                            </div><!-- END OF PORTFOLIO BOX CONTENT -->
-                        </div><!-- END OF PORTFOLIO BOX CAPTION -->
-                    </a>
+                  <a href="#" class="portfolio-box" data-toggle="modal" data-target=".magazine-ad">
+                      <img src="img/portfolio/flipside_thumb.jpg" class="img-responsive" alt="">
+                      <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                              <div class="project-category text-faded">
+                                  Magazine Ad
+                              </div>
+                              <div class="project-name">
+                                  Flipside
+                              </div>
+                          </div><!-- END OF PORTFOLIO BOX CONTENT -->
+                      </div><!-- END OF PORTFOLIO BOX CAPTION -->
+                  </a>
                 </div><!-- END OF COLUMN FLIPSIDE MAG AD -->
                 <div class="modal fade magazine-ad" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                   <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                      <img src="img/portfolio/Flipside_pg1.jpg" alt="" class="img-responsive center-block">
+                    <div class="modal-content" data-featherlight-gallery data-featherlight-filter="a">
+                      <a href="img/portfolio/Flipside_pg1.jpg">
+                        <img src="img/portfolio/Flipside_pg1.jpg" class="thumbnail">
+                      </a>
+                      <a href="img/portfolio/Flipside_pg2.jpg">
+                        <img src="img/portfolio/Flipside_pg2.jpg" class="thumbnail">
+                      </a>
+                      <a href="img/portfolio/Flipside_pg3.jpg">
+                        <img src="img/portfolio/Flipside_pg3.jpg" class="thumbnail">
+                      </a>
                     </div>
                   </div>
                 </div><!-- END OF MODAL FLIPSIDE MAG AD -->
@@ -421,6 +432,9 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
 
+    <!-- LIGHTBOX -->
+    <script src="js/featherlight.min.js" type="text/javascript"></script>
+    <script src="js/featherlight.gallery.min.js" type="text/javascript"></script>
 </body>
 
 </html>
