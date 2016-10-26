@@ -1,4 +1,4 @@
-.container-fluid {
+.no-padding {
   padding: 0;
 }
 
@@ -170,6 +170,10 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+}
+
+#portfolio .modal-md {
+  max-width: 510px;
 }
 
 #portfolio .thumbnail {
