@@ -32,7 +32,7 @@
 }
 
 .header .btn {
-  padding-right: 14%;
+  padding-right: 14.9%;
   padding-bottom: 1.4%;
   position: absolute;
   z-index: 2;
@@ -112,8 +112,8 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   text-align: justify;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 43px;
+  margin-right: 43px;
   padding-top: 10px;
   line-height: 200%;
 }
@@ -149,8 +149,8 @@
   line-height: 1.5;
   font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 
@@ -212,34 +212,38 @@
   right: 0;
 }
 
-#contact .btn .email {
-  color: #f05f40;
+#contact .contact-pitch p {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-#contact .fa-envelope-o {
+#contact .email {
   color: #f05f40;
-  font-size: 50px;
+  font-size: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-#contact .mail {
-  font-size: 20px;
+.fa-envelope-square:hover {
+  color: #eb3812;
 }
+
 
 .facebook {
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 80px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .linkedin {
-  font-size: 30px;
+  font-size: 80px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .twitter {
-  font-size: 30px;
+  font-size: 80px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -251,6 +255,13 @@
     max-height: 7.8vh;
   }
 }*/
+@media screen and (max-width: 1024px) {
+  .header .btn {
+    font-size: 35px;
+    padding-right: 15.5%;
+    padding-bottom: 1.4%;
+  }
+}
 
 @media screen and (max-width: 810px) {
   .header .btn {
@@ -261,5 +272,86 @@
 @media screen and (max-width: 600px) {
   .header {
     max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #about p {
+    margin-left: 35px;
+    margin-right: 35px;
+
+  }
+}
+
+@media screen and (max-width: 485px) {
+  #contact .contact-pitch h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #contact .contact-pitch p {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #contact .contact-pitch p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  #contact .contact-pitch p {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  #contact .contact-pitch p {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  #contact .contact-pitch p {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  #contact .contact-pitch p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  #contact .email {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  #contact .facebook {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  #contact .linkedin {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  #contact .twitter {
+    font-size: 60px;
   }
 }
