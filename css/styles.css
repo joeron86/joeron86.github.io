@@ -46,22 +46,19 @@
 }
 
 .fade-in {
-  position:absolute;
-  top:0px;
-  left:50%;
-  margin:auto;
+  position: absolute;
+  z-index: 3;
+  align-self: center;
 }
+
 .fade-in img {
-      position: absolute;
-      left: -6px;
-      top: 38.8vh;
-      max-height: 76px;
+  background-size: cover;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 32s;
+    -webkit-animation-duration: 5s;
     animation-name: fade;
     animation-iteration-count: infinite;
-    animation-duration: 32s;
+    animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
@@ -83,7 +80,7 @@
     -webkit-animation-delay: -26s;
 }
 #f2 {
-    -webkit-animation-delay: -22s;
+    -webkit-animation-delay: -10s;
 }
 #f3 {
     -webkit-animation-delay: -18s;
