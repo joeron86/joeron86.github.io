@@ -46,19 +46,23 @@
 }
 
 .fade-in {
-  position: absolute;
-  z-index: 3;
-  align-self: center;
+  width: 150px;
+  position:absolute;
+  top:0px;
+  left:50%;
+  margin:auto;
 }
-
 .fade-in img {
-  background-size: cover;
+  position: absolute;
+  left: -7px;
+  top: 351px;
+  max-height: 89.8px;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 30s;
     animation-name: fade;
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 30s;
 }
 
 @-webkit-keyframes fade {
@@ -80,7 +84,7 @@
     -webkit-animation-delay: -26s;
 }
 #f2 {
-    -webkit-animation-delay: -10s;
+    -webkit-animation-delay: -22s;
 }
 #f3 {
     -webkit-animation-delay: -18s;
@@ -246,12 +250,77 @@
 }
 
 /*MEDIA QUERIES*/
-/*@media screen and (max-width: 801px) {
+@media screen and (max-width: 1024px) {
   .fade-in img {
-    top: 30.8vh;
-    max-height: 7.8vh;
+    left: -6px;
+    top: 296px;
+    max-height: 75.4px;
   }
-}*/
+}
+
+@media screen and (max-width: 960px) {
+  .fade-in img {
+    left: -6px;
+    top: 277px;
+    max-height: 71.4px;
+}
+
+@media screen and (max-width: 850px) {
+  .fade-in img {
+    left: -5px;
+    top: 246px;
+    max-height: 62.4px;
+}
+
+@media screen and (max-width: 768px) {
+  .fade-in img {
+    left: -5px;
+    top: 223px;
+    max-height: 56.4px;
+}
+
+@media screen and (max-width: 640px) {
+  .fade-in img {
+    left: -4px;
+    top: 185px;
+    max-height: 47.4px;
+}
+
+@media screen and (max-width: 600px) {
+  .fade-in img {
+    left: -3px;
+    top: 174px;
+    max-height: 44.4px;
+}
+
+@media screen and (max-width: 414px) {
+  .fade-in img {
+    left: -3px;
+    top: 120px;
+    max-height: 30.3px;
+}
+
+@media screen and (max-width: 375px) {
+  .fade-in img {
+    left: -3px;
+    top: 109px;
+    max-height: 27.6px;
+}
+
+@media screen and (max-width: 360px) {
+  .fade-in img {
+    left: -2px;
+    top: 105px;
+    max-height: 26px;
+}
+
+@media screen and (max-width: 320px) {
+  .fade-in img {
+    left: -2px;
+    top: 93px;
+    max-height: 23.3px;
+}
+
 @media screen and (max-width: 1024px) {
   .header .btn {
     font-size: 35px;
