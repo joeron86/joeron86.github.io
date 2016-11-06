@@ -352,3 +352,35 @@
     font-size: 60px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  #contact .email {
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #contact .facebook {
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #contact .linkedin {
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #contact .twitter {
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
