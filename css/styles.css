@@ -355,32 +355,32 @@
 
 @media screen and (max-width: 320px) {
   #contact .email {
-    font-size: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media screen and (max-width: 320px) {
   #contact .facebook {
-    font-size: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media screen and (max-width: 320px) {
   #contact .linkedin {
-    font-size: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media screen and (max-width: 320px) {
   #contact .twitter {
-    font-size: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
