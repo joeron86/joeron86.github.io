@@ -1,5 +1,5 @@
 /*LOADER*/
-/*#loader-wrapper {
+#loader-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,10 +98,10 @@
 
 #loader-wrapper .loader-section.section-right {
   right: 0;
-}*/
+}
 
 /*LOADED STYLES*/
-/*.loaded #loader-wrapper .loader-section.section-left {
+.loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -134,7 +134,7 @@
 
   -webkit-transition: all 0.3s 1s ease-out;
           transition: all 0.3s 1s ease-out;
-}*/
+}
 
 .no-padding {
   padding: 0;
